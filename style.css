@@ -1,0 +1,150 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+@media(max-width:568px)
+{
+    .searchBar
+    {
+    width: 350px!important;
+    }
+}
+.middleContent
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header
+{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 5px;
+}
+.header nav ul 
+{
+    display: flex;
+}
+.header nav ul li 
+{
+    list-style: none;
+    margin: 5px;
+    font-size: 15px;
+}
+#googleLogo
+{
+    width: 250px;
+}
+.searchForm
+{
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+}
+.main
+{
+    flex-direction: column;
+    padding-top: 10px;
+}
+.searchInput
+{
+    flex-direction: row;
+    border: 0.5px solid gray;
+    padding: 5px;
+    border-radius: 15px;
+}
+.searchBar
+{
+    width: 450px;
+}
+input[type=search]
+{
+    border: none;
+    margin: 5px;
+    padding-left: 5px;
+    width: 99%;
+}
+input[type=search]:focus
+{
+    outline: none;
+}
+.searchIcon
+{
+    padding-left: 5px;
+}
+.mic
+{
+    padding-right: 5px;
+}
+.searchButtons
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.searchButtons input[type=submit]
+{
+    margin: 10px;
+    height: 30px;
+    padding: 10px;
+    opacity: 80%;
+    border-radius: 3px;
+    background: lightgray;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.searchButtons input[type=submit]:hover
+{
+    opacity: 100%;
+}
+.language
+{
+    width: 100%;
+}
+.language p
+{
+    text-align: center;
+    font-size: 15px;
+}
+.language p span
+{
+    margin: 5px;
+    font-size: 13px;
+    color: #1a0dab;
+}
+.footer
+{
+    width: 100%;
+    height: 90px;
+    background: lightgray;
+    position: absolute;
+    bottom: 0px;
+}
+.country
+{
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    border-bottom: 0.5px solid gray;
+}
+.services
+{
+    padding: 10px;
+    vertical-align: middle;
+}
+.services p 
+{
+    text-align: center;
+    width: 80%;
+}
+.services p span
+{
+    margin: 5px;
+}
